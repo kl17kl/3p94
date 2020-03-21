@@ -1,0 +1,148 @@
+<html>
+    <head>
+      <title>ELEARNER</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="style_dashboard.css">
+    </head>
+    <body>
+      <!-- The top header -->
+      <div id="top" class="navbar">
+        <a href="#"><img src="img/logo.png" alt="logo" style="margin-top: -5px; width: 100px;"/></a>
+        <div style="float: right">
+          <a class="nav_item">help</a>
+          <a class="nav_item">sign-out</a>
+          <a href="#"><img src="img/user.png" alt="user" style="margin-top: -5px; width: 30px; padding: 0;"/></a>
+        </div>
+      </div>
+      <!-- Nav bar divider -->
+      <div id="divider"></div>
+      <!-- The courses nav bar -->
+      <div id="courses" class="navbar">
+        <a href="#" style="margin: -5px 10px"><button class="button btn_border">HOME</button></a>
+        <a href="#"><button class="button btn_filled" style="margin: -5px -20px">COSC 3P94</button></a>
+        <div style="float: right">
+          <a href="#"><img src="img/courses.png" class="btn_course_menu" alt="menu"/></a>
+        </div>
+      </div>
+      <!-- The page body-->
+      <div id="page_body">
+        <!-- The services nav bar -->
+        <div class="services column"> 
+            <div class="service_item_bkg"><a href="#"><img src="img/about.png" class="service_item" alt="about"/></a></div>
+            <div class="service_item_bkg"><a href="#"><img src="img/announcements.png" class="service_item" alt="announcements"/></a></div>
+            <div class="service_item_bkg"><a href="#"><img src="img/resources.png" class="service_item" alt="resources"/></a></div>
+            <div class="service_item_bkg"><a href="#"><img src="img/to-do.png" class="service_item" alt="to-do"/></a></div>
+            <div class="service_item_bkg"><a href="#"><img src="img/gradebook.png" class="service_item" alt="gradebook"/></a></div>
+            <div class="service_item_bkg"><a href="#"><img src="img/forums.png" class="service_item" alt="forums"/></a></div>
+        </div>
+        <!-- The main display -->
+        <div class="display column">
+
+            <div class="div1">
+              <img src="calender.png" alt="calendar icon" class="todoImg">
+              <h1 class="date">February 2020</h1>
+              <button class="calButton"><</button>
+              <button class="calButton">></button>
+              <div class="calendar">
+                <div class="calendar__header">
+                  <div>mon</div>
+                  <div>tue</div>
+                  <div>wed</div>
+                  <div>thu</div>
+                  <div>fri</div>
+                  <div>sat</div>
+                  <div>sun</div>
+                </div>
+                <div class="calendar__week">
+                  <div class="calendar__day day">1</div>
+                  <div class="calendar__day day">2</div>
+                  <div class="calendar__day day">3</div>
+                  <div class="calendar__day day hoverrr">
+                    4
+                    <p class="calTask1"> 3P94 quiz</p> 
+                  </div>
+                  <div class="calendar__day day">5</div>
+                  <div class="calendar__day day">6</div>
+                  <div class="calendar__day day">7</div>
+                </div>
+                <div class="calendar__week">
+                  <div class="calendar__day day">8</div>
+                  <div class="calendar__day day">9</div>
+                  <div class="calendar__day day">10</div>
+                  <div class="calendar__day day">11</div>
+                  <div class="calendar__day day">12</div>
+                  <div class="calendar__day day hoverrr">13
+                    <p class="calTask2"> 3P94 Assignment 3 due</p> 
+                  </div>
+                  <div class="calendar__day day">14</div>        
+                </div>
+                <div class="calendar__week">
+                  <div class="calendar__day day">15</div>
+                  <div class="calendar__day day">16</div>
+                  <div class="calendar__day day">17</div>
+                  <div class="calendar__day day">18</div>
+                  <div class="calendar__day day">19</div>
+                  <div class="calendar__day day">20</div>
+                  <div class="calendar__day day">21</div>    
+                </div>
+                <div class="calendar__week">
+                  <div class="calendar__day day">22</div>
+                  <div class="calendar__day day">23</div>
+                  <div class="calendar__day day hoverrr">24
+                    <p class="calTask3"> 3P94 midterm</p> 
+                  </div>
+                  <div class="calendar__day day">25</div>
+                  <div class="calendar__day day">26</div> 
+                  <div class="calendar__day day">27</div> 
+                  <div class="calendar__day day">28</div> 
+                </div>
+                <div class="calendar__week">
+                  <div class="calendar__day day">29</div>
+                  <div class="calendar__day day">30</div>
+                  <div class="calendar__day day">31</div>
+                  <div class="calendar__day day">1</div>
+                  <div class="calendar__day day">2</div>
+                  <div class="calendar__day day">3</div>
+                  <div class="calendar__day day">4</div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="div2">
+              <img src="announce.png" alt="announcements" class="todoImg"/>
+              <h1 class="todoHeader">Notifications</h1>
+              <div class="task task1">
+                <!-- <img src="notif.png" alt="Notification" class="notifImg"/> -->
+                <div class="notDiv">
+                  <p class="notifTitle">COSC 3P94 - direct message</p>
+                  <p class="notifDesc">COSC 3P94 > email</p>
+                  <p class="notifDesc">Assignment 3 - the assigment has been postponed ot next week due to... <a class="notifa">learn more</a></p>
+                </div>
+              </div>
+              <div class="task task1">
+                <div class="notDiv">
+                  <p class="notifTitle">COSC 3P94 - added resources</p>
+                  <p class="notifDesc">COSC 3P94 > gradebook > midterm1</p>
+                  <p class="notifDesc">midterm 1 - the midterm has been graded... <a class="notifa">learn more</a></p>
+                </div>
+               
+                
+              </div>
+              <div class="task task1">
+                <div class="notDiv">
+                  <p class="notifTitle">COSC 3P94 - added resources</p>
+                  <p class="notifDesc">COSC 3P94 > resources > file</p>
+                  <p class="notifDesc">Assignment 4 - the assigment has been added to your resources folder... <a class="notifa">learn more</a></p>
+                </div>
+              </div>
+               
+            </div>
+              
+        </div>
+      </div>
+      <!-- The footer -->
+      <div id="footer"></div>
+    </body>
+</html>
